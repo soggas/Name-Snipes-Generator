@@ -1,0 +1,8 @@
+local names = game:GetService("Workspace").board.SurfaceGui.generated.Text
+
+game.StarterGui:SetCore("SendNotification", {
+Title = "Names Generated";
+Text = names;
+Icon = "rbxassetid://6950894739";
+Duration = 1.5
+})
